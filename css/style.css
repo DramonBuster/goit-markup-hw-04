@@ -61,6 +61,7 @@ div.container {
 }
 
 .site-contacts {
+  min-width: 333px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -118,7 +119,6 @@ div.container {
   letter-spacing: 0.02em;
   display: inline-flex;
   align-items: center;
-  margin-left: 30px;
 }
 
 .contact-icon {
@@ -203,7 +203,7 @@ div.container {
 .quality-box::before {
   display: block;
   border-radius: 4px;
-  content: "";
+  content: '';
   background-color: #f5f4fa;
   min-height: 120px;
   margin-bottom: 30px;
